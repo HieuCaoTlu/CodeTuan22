@@ -1,6 +1,7 @@
 **1. Tổng thể:**
    - Giao diện được xây bằng Layout Editor
    - Ngôn ngữ: Kotlin
+     
 **2. Cấu trúc chương trình:**
    - Các Activity:
      + MainActivitySum: nơi mời nhập 2 số để tính toán
