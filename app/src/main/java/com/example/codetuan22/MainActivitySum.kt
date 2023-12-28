@@ -1,6 +1,5 @@
 package com.example.codetuan22
 
-import android.app.ActivityOptions
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -9,10 +8,10 @@ import android.widget.Button
 import android.widget.EditText
 
 class MainActivitySum : AppCompatActivity() {
-    var txt1: EditText? = null
-    var txt2: EditText? = null
-    var btn: Button? = null
-    var change: Button? = null
+    private var txt1: EditText? = null
+    private var txt2: EditText? = null
+    private var btn: Button? = null
+    private var change: Button? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main_sum)

@@ -10,13 +10,13 @@ import com.example.codetuan22.list_fragment.ItemOfAdapter
 import com.example.codetuan22.list_fragment.ItemOfList
 
 class MainActivityList : AppCompatActivity() {
-    var adap:ItemOfAdapter? = null
-    var ls:ArrayList<ItemOfList> = ArrayList()
-    var change:Button? = null
+    private var adap:ItemOfAdapter? = null
+    private var ls:ArrayList<ItemOfList> = ArrayList()
+    private var change:Button? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main_list)
-        var lv = findViewById<ListView>(R.id.ListViewAttend)
+        val lv = findViewById<ListView>(R.id.ListViewAttend)
         change = findViewById(R.id.GoToSumActivity)
 
         // Tạo nguồn dữ liệu
